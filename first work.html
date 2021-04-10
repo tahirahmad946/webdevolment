@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> first work</title>
+    <style>
+        body{
+            padding: 10px;
+           font-size: 1.3rem;
+            color: white;
+            background-image: url('https://images.pexels.com/photos/1609440/pexels-photo-1609440.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+            background-repeat: no-repeat;
+            height: 100%;
+           background-size: cover;
+        }
+       .box{
+           border: 2px solid white;
+           padding: 19px;
+    margin: 56px;
+       }
+            
+        
+        a{
+           
+            text-decoration: none;
+            color: white;
+            position:relative;
+           padding: 15px;
+           font-size: 1.3rem;
+        
+        }
+        header{
+            display: inline-flex;
+           
+        }
+        btn{
+            display: flex;
+        }
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        footer{
+            color: white;
+            background-color: black;
+            text-align: center;
+        }
+        .box1{
+            
+        }
+    </style>
+</head>
+<body>
+    
+   <header><div class="btn"><a href="http://127.0.0.1:5500/index.html">home</a>
+   </div>
+   <div class="btn" id=""><a href="http://127.0.0.1:5500/tel-03496789574">contact us </a></div>
+   <div class="btn" id="btn2"><a href="http://127.0.0.1:5500/index.html">service</a></div></header>
+   <h1>sharjah car lift</h1>
+   <p>
+       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit nam eaque, iusto eius necessitatibus repellat illo voluptatum laboriosam. Amet optio voluptates labore illum a voluptatibus error explicabo dolorum maxime odit?
+   </p>
+   <hr> <div class="box" id="box1">ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eos omnis perspiciatis dicta molestiae enim, assumenda iste id saepe veritatis blanditiis maiores harum voluptatum minus ut eum sequi veniam eligendi.</div>
+   <div class="box" id="box1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni consequuntur minima quis quaerat, mollitia labore molestias sunt. Iure eligendi magni ab delectus nisi tenetur rem quae velit, repudiandae, obcaecati perferendis!</div>
+   <div class="box" id="box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, error? Nesciunt ea nam culpa molestiae dolore molestias necessitatibus atque maiores similique distinctio dolor dicta dolorum autem laboriosam magnam, ab aut?</div>
+   <div class="box" id="box1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum voluptatem reprehenderit, provident porro optio maxime officiis itaque vel odit perferendis? Sint deleniti itaque numquam veniam, ipsam quod odio. Deserunt, accusamus.</div>
+   <div class="box" id="box1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse unde, accusamus quae minus cupiditate quam velit magnam! Ipsum ratione quidem nulla voluptatem voluptatibus omnis at fuga itaque repellat, commodi magni.</div>
+   <footer>for more information contact with us!</footer>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body></html>
